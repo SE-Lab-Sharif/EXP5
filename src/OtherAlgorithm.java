@@ -10,11 +10,10 @@ public class OtherAlgorithm {
     }
 
     public static long factorial(int n) {
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+        if (n == 0) {
+            return 1;
         }
-        return result;
+        return n * factorial(n - 1);
     }
 
     private static String askForInput(String message) {
