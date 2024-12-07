@@ -1,24 +1,33 @@
-import java.util.Scanner;
-
 public class OtherAlgorithm {
-    static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int number = Integer.parseInt(askForInput("Enter a number for its factorial to be calculated: "));
-        long result = factorial(number);
-        System.out.println("Factorial of " + number + " is " + result);
+        int size = 1000; // Size of the matrices
+        double[][] matrixA = generateMatrix(size);
+        double[][] matrixB = generateMatrix(size);
+        double[][] result = multiplyMatrices(matrixA, matrixB, size);
+
+        System.out.println("Matrix multiplication completed.");
     }
 
-    public static long factorial(int n) {
-        if (n == 0) {
-            return 1;
+    private static double[][] generateMatrix(int size) {
+        double[][] matrix = new double[size][size];
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                matrix[i][j] = Math.random();
+            }
         }
-        return n * factorial(n - 1);
+        return matrix;
     }
 
-    private static String askForInput(String message) {
-        System.out.println(message);
-        String inp = scanner.nextLine();
-        return inp;
+    private static double[][] multiplyMatrices(double[][] matrixA, double[][] matrixB, int size) {
+        double[][] result = new double[size][size];
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                for (int k = 0; k < size; k++) {
+                    result[i][j] += matrixA[i][k] * matrixB[k][j];
+                }
+            }
+        }
+        return result;
     }
 }
