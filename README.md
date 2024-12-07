@@ -1,7 +1,22 @@
 # آزمایش پنجم (پروفایلینگ)
 
-# ....
-.....
+# بخش اول:‌شناسایی بخش های پر مصرف
+نحوه اجرا:
+![image](https://github.com/user-attachments/assets/2ec0333d-bb76-4a00-90ac-a09896cec287)
+وضعیت مصرف قبل از تغییرات:
+![image](https://github.com/user-attachments/assets/0caf6278-14f2-4ce9-b8a7-0138d73b0e3b)
+![image](https://github.com/user-attachments/assets/f803fabc-d26d-4873-b9e5-78ee9e35337e)
+![image](https://github.com/user-attachments/assets/b56aea2b-ecf3-4d88-856d-f12b5fc6cf06)
+کد قبل از تغییر :
+![image](https://github.com/user-attachments/assets/46fbabe2-2fe7-45fe-9afc-04b5be134eb3)
+
+کد بعد از تغییر:
+![image](https://github.com/user-attachments/assets/938c7649-841d-4fcf-9eeb-1f741a84d463)
+
+وضعیت مصرف بعد از تغییرات:
+![image](https://github.com/user-attachments/assets/caafb70d-ed41-4fd2-817d-8e77c95407b4)
+![image](https://github.com/user-attachments/assets/0dc6ca16-dfc9-4854-bf67-e01037d7d4d7)
+![image](https://github.com/user-attachments/assets/d69249bc-3e47-4105-9dcd-d13209788138)
 
 # بخش دوم:‌پیاده‌سازی یک الگوریتم جدید و پروفایل آن
 در این بخش باید یک الگوریتم دلخواه‌(بجز sort و fibbonaci) پیاده سازی کرده و آنرا پروفایل کنیم و سپس با توجه به مصرف منابع، آنرا به نوعی optimize کنیم تا بهبود یابد. در این قسمت، ما عملیات __ضرب دوتا ماتریس مربعی__ را پیاده‌سازی می‌کنیم و آنرا پروفایل می‌کنیم. 
