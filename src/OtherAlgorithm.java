@@ -1,7 +1,7 @@
 public class OtherAlgorithm {
 
     public static void main(String[] args) {
-        int size = 1000; // Size of the matrices
+        int size = 1024; // Size of the matrices
         double[][] matrixA = generateMatrix(size);
         double[][] matrixB = generateMatrix(size);
         double[][] result = multiplyMatrices(matrixA, matrixB, size);
